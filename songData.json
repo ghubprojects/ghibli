@@ -1,0 +1,92 @@
+[
+	{
+		"id": "0",
+		"name": "Kiki's Delivery Service - Umi No Mieru Machi",
+		"src": "./assets/music/0. Kiki's Delivery Service - Umi No Mieru Machi.mp3"
+	},
+	{
+		"id": "1",
+		"name": "Princess Mononoke - Mononoke Hime",
+		"src": "./assets/music/1. Princess Mononoke - Mononoke Hime.mp3"
+	},
+	{
+		"id": "2",
+		"name": "My Neighbor Totoro - Kaze no Toori Michi",
+		"src": "./assets/music/2. My Neighbor Totoro - Kaze no Toori Michi.mp3"
+	},
+	{
+		"id": "3",
+		"name": "Porco Rosso - Toki ni wa Mukashi no Hanashi wo",
+		"src": "./assets/music/3. Porco Rosso - Toki ni wa Mukashi no Hanashi wo.mp3"
+	},
+	{
+		"id": "4",
+		"name": "Kiki's Delivery Service - Yasashisa ni Tsutsumareta nara",
+		"src": "./assets/music/4. Kiki's Delivery Service - Yasashisa ni Tsutsumareta nara.mp3"
+	},
+	{
+		"id": "5",
+		"name": "My Neighbor Totoro - Tonari no Totoro",
+		"src": "./assets/music/5. My Neighbor Totoro - Tonari no Totoro.mp3"
+	},
+	{
+		"id": "6",
+		"name": "Nausicaä of the Valley of the Wind - Kaze no Tani no Naushika",
+		"src": "./assets/music/6. Nausicaä of the Valley of the Wind - Kaze no Tani no Naushika.mp3"
+	},
+	{
+		"id": "7",
+		"name": "Laputa Castle in the Sky - Kimi wo Nosete",
+		"src": "./assets/music/7. Laputa Castle in the Sky - Kimi wo Nosete.mp3"
+	},
+	{
+		"id": "8",
+		"name": "Spirited Away - Inochi no Namae",
+		"src": "./assets/music/8. Spirited Away - Inochi no Namae.mp3"
+	},
+	{
+		"id": "9",
+		"name": "From Up on Poppy Hill - Sayonara no Natsu",
+		"src": "./assets/music/9. From Up on Poppy Hill - Sayonara no Natsu.mp3"
+	},
+	{
+		"id": "10",
+		"name": "Whisper of the Heart - Take Me Home",
+		"src": "./assets/music/10. Whisper of the Heart - Take Me Home.mp3"
+	},
+	{
+		"id": "11",
+		"name": "Kiki's Delivery Service - Message By Rouge",
+		"src": "./assets/music/11. Kiki's Delivery Service - Message By Rouge.mp3"
+	},
+	{
+		"id": "12",
+		"name": "My Neighbor Totoro - Stroll",
+		"src": "./assets/music/12. My Neighbor Totoro - Stroll.mp3"
+	},
+	{
+		"id": "13",
+		"name": "Tales from Earthsea - Teru's Song",
+		"src": "./assets/music/13. Tales from Earthsea - Teru's Song.mp3"
+	},
+	{
+		"id": "14",
+		"name": "The Secret World of Arrietty - Arrietty's Song",
+		"src": "./assets/music/14. The Secret World of Arrietty - Arrietty's Song.mp3"
+	},
+	{
+		"id": "15",
+		"name": "Ponyo - Ponyo on the Cliff by the Sea",
+		"src": "./assets/music/15. Ponyo - Ponyo on the Cliff by the Sea.mp3"
+	},
+	{
+		"id": "16",
+		"name": "Nausicaä of the Valley of the Wind - Nausicaa Requiem",
+		"src": "./assets/music/16. Nausicaä of the Valley of the Wind - Nausicaa Requiem.mp3"
+	},
+	{
+		"id": "17",
+		"name": "Howl's Moving Castle - The Promise of the World",
+		"src": "./assets/music/17. Howl's Moving Castle - The Promise of the World.mp3"
+	}
+]
