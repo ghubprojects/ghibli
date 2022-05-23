@@ -4,13 +4,13 @@ let switchBtn = $("#switch-btn");
 let nightState = true;
 function changeTime(nightState) {
   if (nightState) {
-    $(".switch-inner img").attr("src", "./assets/icon/night.svg");
+    $(".switch-inner img").attr("src", "static/assets/icon/night.svg");
     switchBtn.css("backgroundColor", "hsla(0, 0%, 100%, 0.25)");
     $(".night-video").css("opacity", 1);
     $(".day-video").css("opacity", 0);
     $("header").css("background-image", "none");
   } else {
-    $(".switch-inner img").attr("src", "./assets/icon/day.svg");
+    $(".switch-inner img").attr("src", "static/assets/icon/day.svg");
     switchBtn.css("backgroundColor", "#f3a952");
     $(".night-video").css("opacity", 0);
     $(".day-video").css("opacity", 1);
@@ -76,17 +76,17 @@ $.getJSON("/songData.json", (data) => {
 
   function changePlayStopState(playState) {
     if (playState) {
-      playStopBtn.attr("src", "./assets/icon/play.svg");
+      playStopBtn.attr("src", "static/assets/icon/play.svg");
       audio[0].play();
     } else {
-      playStopBtn.attr("src", "./assets/icon/stop.svg");
+      playStopBtn.attr("src", "static/assets/icon/stop.svg");
       audio[0].pause();
     }
   }
 
   function changeSong(id) {
     playState = true;
-    playStopBtn.attr("src", "./assets/icon/play.svg");
+    playStopBtn.attr("src", "static/assets/icon/play.svg");
     audio.attr("src", songList[id].src);
     audio.attr("autoplay", true);
     nameSong.text("Song name: " + songList[id].name);
