@@ -49,15 +49,15 @@ $(".fa-expand").click(() => {
 let menuBtn = document.getElementsByClassName("fa-bars")[0];
 
 signUpBtn.onclick = () => {
-  alert("signUpBtn is clicked");
+  alert("Tính năng này chúng tôi chưa cập nhật nhá :))");
 };
 
 shareBtn.onclick = () => {
-  alert("shareBtn is clicked");
+  alert("Cái này cũng thế");
 };
 
 menuBtn.onclick = () => {
-  alert("menuBtn is clicked");
+  alert("Đã bảo chưa cập nhật rồi =_=");
 };
 
 /* Music Player Handler */
@@ -180,7 +180,7 @@ function changeSong(id) {
   playStopBtn.attr("src", "static/assets/icon/play.svg");
   audio.attr("src", songList[id].src);
   audio.attr("autoplay", true);
-  nameSong.text("Song name: " + songList[id].name);
+  nameSong.text(`Song name: ${id + 1}. ${songList[id].name}`);
 }
 
 playStopBtn.click(() => {
@@ -198,4 +198,8 @@ prevBtn.click(() => {
   currentId--;
   if (currentId == -1) currentId = numberOfSong - 1;
   changeSong(currentId);
+});
+
+audio[0].addEventListener("ended", () => {
+  changeSong(++currentId);
 });
